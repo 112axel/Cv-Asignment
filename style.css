@@ -1,43 +1,55 @@
-.winner{
+.winner {
     color: gold;
 }
 
-.nominee{
+.nominee {
     color: silver;
 }
 
-h1,footer{
+h1,
+footer {
     text-align: center;
 }
 
-h1,p,img,#lists,#intro,footer{
+h1,
+p,
+img,
+#lists,
+#intro,
+footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
 }
 
+body{
+    background-color: hsl(40, 100%, 80%);
+}
+
 @media(min-width: 800px) {
-   #lists{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-   } 
-   #intro{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-   }
-   p{
-    margin-left: 0;
-    margin-right: 0;
-    width: auto;
-   }
+    #lists {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    #intro {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+    }
+
+    p {
+        margin-left: 0;
+        margin-right: 0;
+        width: auto;
+    }
 }
 
 
-@media(min-width:1600px){
-    img{
+@media(min-width:1600px) {
+    img {
         width: 250px;
     }
 }
