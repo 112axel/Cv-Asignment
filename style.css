@@ -49,7 +49,9 @@ body{
 
 
 @media(min-width:1600px) {
-    img {
-        width: 250px;
-    }
+   body{
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+   } 
 }
